@@ -1,0 +1,48 @@
+.toolbar {
+  position: relative;
+}
+
+.toolbar .wrapper{
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  background: #87ceeb;
+}
+
+.toolbar input,
+.toolbar select {
+  width: 60px;
+}
+
+.toolbar input,
+.toolbar select,
+.toolbar button {
+  padding: 5px;
+}
+
+.toolbar button.submit {
+  background: rgb(34, 230, 40);
+}
+
+.toolbar button.delete {
+  background: rgb(252, 71, 65);
+}
+
+.toggle-toolbar-button {
+  position: absolute;
+  bottom: -28.5px;
+  left: calc(50% - 70px);
+  z-index: 3;
+
+  display: flex;
+  align-self: center;
+
+  padding: 5px 25px;
+  
+  background: rgb(230, 85, 230);
+
+  cursor: pointer;
+}

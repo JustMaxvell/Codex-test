@@ -1,0 +1,13 @@
+.line-wrapper {
+  position: absolute;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  background: skyblue;
+  top: 0;
+  left: 0;
+  transform-origin: 0px 0px;
+  z-index: 100;
+}

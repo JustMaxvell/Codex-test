@@ -1,0 +1,5 @@
+.rect {
+  position: absolute;
+  border: 2.5px solid skyblue;
+  z-index: 100;
+}
